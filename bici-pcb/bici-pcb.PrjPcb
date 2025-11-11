@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YQIFCZZJ
 
 [Document3]
-DocumentPath=bici-user-feedback.SchDoc
+DocumentPath=bici-turn-lights.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -99,6 +99,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JCBZIVHT
+
+[Document4]
+DocumentPath=bici-turn-audio.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YENNYBQU
 
 [Configuration1]
 Name=Sources
