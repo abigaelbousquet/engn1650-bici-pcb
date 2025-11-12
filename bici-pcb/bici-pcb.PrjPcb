@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PECRHPAH
 
 [Document2]
-DocumentPath=bici-mcu-imu.SchDoc
+DocumentPath=bici-imu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -116,6 +116,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YENNYBQU
+
+[Document5]
+DocumentPath=bici-mcu.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IMCUNKBL
 
 [Configuration1]
 Name=Sources
@@ -1051,17 +1068,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=bici_components_abby.IntLib
-ComponentDesignItemID0=10164359-00011LF
-ComponentSymbolReference0=10164359-00011LF
+ComponentLibraryIdentifier0=bici_components_abby.SchLib
+ComponentDesignItemID0=ICM-42670-P
+ComponentSymbolReference0=ICM-42670-P
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=bici_components_abby.IntLib
-ComponentDesignItemID1=BK-18650-CLIP
-ComponentSymbolReference1=BK-18650-CLIP
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1094,11 +1105,8 @@ ParameterUpdate7=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=10164359-00011LF
+ModelName0=ICM-42670-P
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=BK-18650-CLIP
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
