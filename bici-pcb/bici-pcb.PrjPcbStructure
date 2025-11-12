@@ -1,3 +1,4 @@
 Record=TopLevelDocument|FileName=bici-mcu-imu.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=bici-mcu-imu.SchDoc|FileName=bici-power.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=bici-mcu-imu.SchDoc|FileName=bici-user-feedback.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=bici-mcu-imu.SchDoc|FileName=bici-turn-audio.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=bici-mcu-imu.SchDoc|FileName=bici-turn-lights.SchDoc|SheetNumber=3
