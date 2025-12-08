@@ -86,6 +86,9 @@ SLW-864574-5A-RA-N-DSLW-864574-5A-RA-N-DSW1
 25-mil-TP         25-mil-TP       TP301
 25-mil-TP         25-mil-TP       TP302
 25-mil-TP         25-mil-TP       TP401
+25-mil-TP         25-mil-TP       TP402
+25-mil-TP         25-mil-TP       TP403
+25-mil-TP         25-mil-TP       TP404
 MCP73831T-2ATI/OT MCP73831T-2ATI/OTU1
 RT6150B-33GQW     RT6150B-33GQW   U2
 ICM-42670-P       ICM-42670-P     U101
@@ -100,17 +103,35 @@ NET LIST
 NODENAME Vbatt_sw         $
     C3         2  R5         1  R9         2  R10        2  SW1        2  TP3        1  U2         5  U2         8
 NODENAME Vbatt            $
-    J2         1  R8         1  SW1        1  TP2        1
+    J2         1  R8         2  SW1        1  TP2        1
 NODENAME SWDIO            $
     J401       4  U401      34
 NODENAME SWDCLK           $
     J401       6  U401      37
-NODENAME STLINK-TX        $
+NODENAME STM-CLOCK-OUT    $
+    TP402      1  U401      12
+NODENAME STLINK_TX        $
     J401      14  U401      31
-NODENAME STLINK-RX        $
+NODENAME STLINK_RX        $
     J401      13  U401      30
+NODENAME SPARE_GPIO-2     $
+    TP404      1  U401      25
+NODENAME SPARE_GPIO-1     $
+    TP403      1  U401      22
 NODENAME NRST             $
     J401      12  R402       2  U401       7
+NODENAME NetU202-6        $
+    U202       6  U202       8  U202      11  U401      42
+NODENAME NetU202-4        $
+    U202       4  U202      13  U401      41
+NODENAME NetU202-2        $
+    U202       2  U202      15  U401      40
+NODENAME NetU201-6        $
+    U201       6  U201       8  U201      11  U401      46
+NODENAME NetU201-4        $
+    U201       4  U201      13  U401      45
+NODENAME NetU201-2        $
+    U201       2  U201      15  U401      43
 NODENAME NetTP105-1       $
     TP105      1  U101       4  U401      18
 NODENAME NetTP104-1       $
@@ -121,12 +142,10 @@ NODENAME NetTP102-1       $
     TP102      1  U101      13  U401      11
 NODENAME NetTP101-1       $
     TP101      1  U101      12  U401      14
-NODENAME NetR401-1        $
-    R401       1  R403       2  TP401      1  U401      29
 NODENAME NetR303-1        $
     R303       1  TP302      1  U302       1  U401      13
 NODENAME NetR301-1        $
-    R301       1  TP301      1  U301       1  U401      12
+    R301       1  TP301      1  U301       1  U401      27
 NODENAME NetR216-2        $
     R216       2  TP202      1  U202       1  U202      19  U401      39
 NODENAME NetR215-2        $
@@ -188,7 +207,7 @@ NODENAME NetJ400-2        $
 NODENAME NetJ1_B5         $
     J1        B5  R2         1
 NODENAME NetJ1_A9         $
-    J1        A9  J1        B9  R7         2
+    J1        A9  J1        B9  R7         1
 NODENAME NetJ1_A5         $
     J1        A5  R1         1
 NODENAME NetD214-1        $
@@ -224,11 +243,13 @@ NODENAME NetD40-1         $
 NODENAME NetD1-1          $
     D1         1  R3         1
 NODENAME NetC2-2          $
-    C2         2  R8         2  U1         3
+    C2         2  R8         1  U1         3
+NODENAME LOW_BATT_L       $
+    R401       1  R403       2  TP401      1  U401      29
 NODENAME GND              $
-    C1         1  C2         1  C3         1  C4         1  C5         1  C101       1  C102       1  C103       1  C401       1  C402       1  C403       1  C404       1  C405       1  J1       A12  J1       B12  J1       SH1  J1       SH2  J1       SH3  J1       SH4  J2         2  J401       5  J401       7  J401      11  R1         2  R2         2  R4         2  R6         2  R301       2  R303       2  R404       1  U1         2  U2         3  U2         9  U2        11  U101       2  U101       3  U101       6  U101       7  U101      10  U101      11  U201       2  U201       4  U201       6  U201       8  U201      10  U201      11  U201      13  U201      15  U201      17  U202       2  U202       4  U202       6  U202       8  U202      10  U202      11  U202      13  U202      15  U202      17  U301       3  U302       3  U401       1  U401       8  U401      23  U401      35  U401      36  U401      47
+    C1         1  C2         1  C3         1  C4         1  C5         1  C101       1  C102       1  C103       1  C401       1  C402       1  C403       1  C404       1  C405       1  J1       A12  J1       B12  J1       SH1  J1       SH2  J1       SH3  J1       SH4  J2         2  J401       5  J401       7  J401      11  R1         2  R2         2  R4         2  R6         2  R301       2  R303       2  R404       1  U1         2  U2         3  U2         9  U2        11  U101       2  U101       3  U101       6  U101       7  U101      10  U101      11  U201      10  U201      17  U202      10  U202      17  U301       3  U302       3  U401       1  U401       8  U401      23  U401      35  U401      36  U401      47
 NODENAME +5V              $
-    C1         2  D1         2  R7         1  TP1        1  U1         4
+    C1         2  D1         2  R7         2  TP1        1  U1         4
 NODENAME +3V3             $
     C4         2  C5         2  C101       2  C102       2  C103       2  C401       2  C402       2  C403       2  C404       2  C405       2  D40        2  D201       2  D202       2  D203       2  D204       2  D205       2  D206       2  D207       2  D208       2  D209       2  D210       2  D211       2  D212       2  D213       2  D214       2  J400       1  J401       3  R11        1  R215       1  R216       1  R302       1  R304       1  R402       1  R403       1  TP4        1  U101       5  U101       8  U201      20  U202      20  U401       9  U401      24  U401      48
 EOS
