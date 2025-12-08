@@ -159,6 +159,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for bici-pcb\bici-pcb.nsx
 DItemRevisionGUID=
 
+[GeneratedDocument3]
+DocumentPath=Project Outputs for bici-pcb\Design Rule Check - bici-pcb.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
