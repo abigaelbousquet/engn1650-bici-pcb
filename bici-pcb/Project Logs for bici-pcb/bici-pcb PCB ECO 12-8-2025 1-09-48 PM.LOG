@@ -1,0 +1,11 @@
+Added Component: Designator=D401(AP3216ID)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "AP3216ID"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "754-AP3216IDCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=D401-2
+Added Pin To Net: NetName=NetD401_1 Pin=D401-1
+Added Pin To Net: NetName=NetD401_1 Pin=R401-2
+Added Net: Name=NetD401_1
+Added Member To Class: ClassName=bici-mcu Member=Component D401 AP3216ID
