@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=CLK NewDesignator=TP102
+Change Component Designator: OldDesignator=CS NewDesignator=TP101
+Change Component Designator: OldDesignator=INT1 NewDesignator=TP105
+Change Component Designator: OldDesignator=MISO NewDesignator=TP104
+Change Component Designator: OldDesignator=MOSI NewDesignator=TP103
+Added Component: Designator=L1(CIGW252010GL2R2MNE)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "CIGW252010GL2R2MNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "1276-6933-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Member To Class: ClassName=bici-power Member=Component L1 CIGW252010GL2R2MNE
