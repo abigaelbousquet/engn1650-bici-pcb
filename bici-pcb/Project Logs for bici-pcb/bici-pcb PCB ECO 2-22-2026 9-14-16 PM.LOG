@@ -1,0 +1,40 @@
+Added Component: Designator=R5(RT0603BRD0750KL)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "RT0603BRD0750KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "50k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "13-RT0603BRD0750KLCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RT0603BRD0750KL)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "RT0603BRD0750KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "50k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "13-RT0603BRD0750KLCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U101(ICM-42670-P)
+Add component (AddParameter): Name = "Manufacturer"; Value = "TDK InvenSense"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "ICM-42670-P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "LGA-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "410-ICM-42670-P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Vbatt_sw Pin=R5-1
+Added Pin To Net: NetName=NetC6_2 Pin=R5-2
+Added Pin To Net: NetName=NetC6_2 Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=NetTP104_1 Pin=U101-1
+Added Pin To Net: NetName=GND Pin=U101-2
+Added Pin To Net: NetName=GND Pin=U101-3
+Added Pin To Net: NetName=NetTP105_1 Pin=U101-4
+Added Pin To Net: NetName=+3V3 Pin=U101-5
+Added Pin To Net: NetName=GND Pin=U101-6
+Added Pin To Net: NetName=GND Pin=U101-7
+Added Pin To Net: NetName=+3V3 Pin=U101-8
+Added Pin To Net: NetName=GND Pin=U101-10
+Added Pin To Net: NetName=GND Pin=U101-11
+Added Pin To Net: NetName=NetTP101_1 Pin=U101-12
+Added Pin To Net: NetName=NetTP102_1 Pin=U101-13
+Added Pin To Net: NetName=NetTP103_1 Pin=U101-14
+Added Member To Class: ClassName=bici-power Member=Component R5 RT0603BRD0750KL
+Added Member To Class: ClassName=bici-power Member=Component R6 RT0603BRD0750KL
+Added Member To Class: ClassName=bici-imu Member=Component U101 ICM-42670-P
