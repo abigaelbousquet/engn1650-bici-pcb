@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=SPARE_GPIO_2 Pin=U401-25
+Change Component Designator: OldDesignator=3V3 NewDesignator=TP4
+Change Component Designator: OldDesignator=5V NewDesignator=TP1
+Change Component Designator: OldDesignator=CLK NewDesignator=TP102
+Change Component Designator: OldDesignator=CS NewDesignator=TP101
+Change Component Designator: OldDesignator=GND NewDesignator=TP5
+Change Component Designator: OldDesignator=GND NewDesignator=TP6
+Change Component Designator: OldDesignator=INT1 NewDesignator=TP105
+Change Component Designator: OldDesignator=MISO NewDesignator=TP104
+Change Component Designator: OldDesignator=MOSI NewDesignator=TP103
+Change Component Designator: OldDesignator=STM CLK NewDesignator=TP402
+Change Component Designator: OldDesignator=VBATT NewDesignator=TP2
+Change Component Designator: OldDesignator=VBATT_SW NewDesignator=TP3
+Added Pin To Net: NetName=SPARE_GPIO_2 Pin=U401-20
+Added Member To Class: ClassName=bici-power Member=Component TP5 25-mil-TP
