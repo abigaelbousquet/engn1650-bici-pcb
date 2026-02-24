@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=TP403 NewDesignator=TP404
+Change Component Designator: OldDesignator=TP404 NewDesignator=TP403
+Change Net Name : Old Net Name=NetU201_2 New Net Name=LOEN
+Change Net Name : Old Net Name=NetU201_4 New Net Name=LMEN
+Change Net Name : Old Net Name=NetU201_6 New Net Name=LIEN
+Change Net Name : Old Net Name=NetU202_2 New Net Name=ROEN
+Change Net Name : Old Net Name=NetU202_6 New Net Name=RIEN
+Added Member To Class: ClassName=bici-power Member=Component TP3 25-mil-TP
+Added Member To Class: ClassName=bici-imu Member=Component TP104 25-mil-TP
