@@ -1,0 +1,52 @@
+Added Component: Designator=U201(MC74HC244ADTR2G)
+Add component (AddParameter): Name = "Manufacturer"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "MC74HC244ADTR2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "20-TSSOP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "MC74HC244ADTR2GOSCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U202(MC74HC244ADTR2G)
+Add component (AddParameter): Name = "Manufacturer"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "MC74HC244ADTR2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "20-TSSOP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "MC74HC244ADTR2GOSCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR215_2 Pin=U201-1
+Added Pin To Net: NetName=LOEN Pin=U201-2
+Added Pin To Net: NetName=LMEN Pin=U201-4
+Added Pin To Net: NetName=NetR207_2 Pin=U201-5
+Added Pin To Net: NetName=LIEN Pin=U201-6
+Added Pin To Net: NetName=NetR206_2 Pin=U201-7
+Added Pin To Net: NetName=LIEN Pin=U201-8
+Added Pin To Net: NetName=NetR205_2 Pin=U201-9
+Added Pin To Net: NetName=GND Pin=U201-10
+Added Pin To Net: NetName=LIEN Pin=U201-11
+Added Pin To Net: NetName=NetR204_2 Pin=U201-12
+Added Pin To Net: NetName=LMEN Pin=U201-13
+Added Pin To Net: NetName=NetR203_2 Pin=U201-14
+Added Pin To Net: NetName=LOEN Pin=U201-15
+Added Pin To Net: NetName=NetR202_2 Pin=U201-16
+Added Pin To Net: NetName=GND Pin=U201-17
+Added Pin To Net: NetName=NetR201_2 Pin=U201-18
+Added Pin To Net: NetName=NetR215_2 Pin=U201-19
+Added Pin To Net: NetName=+3V3 Pin=U201-20
+Added Pin To Net: NetName=NetR216_2 Pin=U202-1
+Added Pin To Net: NetName=ROEN Pin=U202-2
+Added Pin To Net: NetName=RMEN Pin=U202-4
+Added Pin To Net: NetName=NetR214_2 Pin=U202-5
+Added Pin To Net: NetName=RIEN Pin=U202-6
+Added Pin To Net: NetName=NetR213_2 Pin=U202-7
+Added Pin To Net: NetName=RIEN Pin=U202-8
+Added Pin To Net: NetName=NetR212_2 Pin=U202-9
+Added Pin To Net: NetName=GND Pin=U202-10
+Added Pin To Net: NetName=RIEN Pin=U202-11
+Added Pin To Net: NetName=NetR211_2 Pin=U202-12
+Added Pin To Net: NetName=RMEN Pin=U202-13
+Added Pin To Net: NetName=NetR210_2 Pin=U202-14
+Added Pin To Net: NetName=ROEN Pin=U202-15
+Added Pin To Net: NetName=NetR209_2 Pin=U202-16
+Added Pin To Net: NetName=GND Pin=U202-17
+Added Pin To Net: NetName=NetR208_2 Pin=U202-18
+Added Pin To Net: NetName=NetR216_2 Pin=U202-19
+Added Pin To Net: NetName=+3V3 Pin=U202-20
+Added Member To Class: ClassName=bici-turn-lights Member=Component U201 MC74HC244ADTR2G
+Added Member To Class: ClassName=bici-turn-lights Member=Component U202 MC74HC244ADTR2G

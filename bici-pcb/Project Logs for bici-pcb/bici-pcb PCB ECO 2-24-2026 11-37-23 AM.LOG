@@ -1,0 +1,18 @@
+Added Component: Designator=U2(RT6150B-33GQW)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Richtek USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "RT6150B-33GQW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "10-WDFN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "RT6150B-33GQWCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_2 Pin=U2-1
+Added Pin To Net: NetName=NetL1_2 Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=NetL1_1 Pin=U2-4
+Added Pin To Net: NetName=Vbatt_sw Pin=U2-5
+Added Pin To Net: NetName=Vbatt_sw Pin=U2-6
+Added Pin To Net: NetName=NetR10_1 Pin=U2-7
+Added Pin To Net: NetName=Vbatt_sw Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U2-9
+Added Pin To Net: NetName=NetC4_2 Pin=U2-10
+Added Pin To Net: NetName=GND Pin=U2-11
+Added Member To Class: ClassName=bici-power Member=Component U2 RT6150B-33GQW
