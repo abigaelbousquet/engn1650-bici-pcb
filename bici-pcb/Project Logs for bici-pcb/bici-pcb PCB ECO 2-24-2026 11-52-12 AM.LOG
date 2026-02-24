@@ -1,0 +1,38 @@
+Added Component: Designator=D301(SDR08C04LP3-7B)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "SDR08C04LP3-7B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "31-SDR08C04LP3-7BCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=D302(SDR08C04LP3-7B)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "SDR08C04LP3-7B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "31-SDR08C04LP3-7BCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U101(ICM-42670-P)
+Add component (AddParameter): Name = "Manufacturer"; Value = "TDK InvenSense"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer PN"; Value = "ICM-42670-P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "LGA-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor PN"; Value = "410-ICM-42670-P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD301_1 Pin=D301-1
+Added Pin To Net: NetName=NetD301_2 Pin=D301-2
+Added Pin To Net: NetName=NetD302_1 Pin=D302-1
+Added Pin To Net: NetName=NetD302_2 Pin=D302-2
+Added Pin To Net: NetName=NetTP104_1 Pin=U101-1
+Added Pin To Net: NetName=GND Pin=U101-2
+Added Pin To Net: NetName=GND Pin=U101-3
+Added Pin To Net: NetName=NetTP105_1 Pin=U101-4
+Added Pin To Net: NetName=+3V3 Pin=U101-5
+Added Pin To Net: NetName=GND Pin=U101-6
+Added Pin To Net: NetName=GND Pin=U101-7
+Added Pin To Net: NetName=+3V3 Pin=U101-8
+Added Pin To Net: NetName=GND Pin=U101-10
+Added Pin To Net: NetName=GND Pin=U101-11
+Added Pin To Net: NetName=NetTP101_1 Pin=U101-12
+Added Pin To Net: NetName=NetTP102_1 Pin=U101-13
+Added Pin To Net: NetName=NetTP103_1 Pin=U101-14
+Added Member To Class: ClassName=bici-turn-audio Member=Component D301 SDR08C04LP3-7B
+Added Member To Class: ClassName=bici-turn-audio Member=Component D302 SDR08C04LP3-7B
+Added Member To Class: ClassName=bici-imu Member=Component U101 ICM-42670-P
