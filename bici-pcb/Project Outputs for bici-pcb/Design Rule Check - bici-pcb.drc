@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\truth\OneDrive\Desktop\ACADEMICS\ENGN1650\engn1650-bici-pcb\bici-pcb\bici-pcb.PcbDoc
-Date     : 2/24/2026
-Time     : 12:00:55 PM
+Date     : 2/25/2026
+Time     : 2:21:31 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -23,7 +23,7 @@ Rule Violations :8
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=4mil) (Max=15mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=4mil) (Max=25mil) (Preferred=10mil) (All)
 Rule Violations :0
 
 Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
