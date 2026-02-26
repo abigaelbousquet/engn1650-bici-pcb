@@ -2,17 +2,14 @@
 FileName = bici-pcb.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Paste
-      File : bici-pcb_Paste_Bot.gbr
+Generating : Bottom Overlay
+      File : bici-pcb_Legend_Bot.gbr
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
+    D11
 *************************************************************
 
 *************************************************************
@@ -50,102 +47,6 @@ Used DCodes :
     D33
     D34
     D35
-*************************************************************
-
-*************************************************************
-Generating : GND
-      File : bici-pcb_Copper_Signal_1.gbr
-
-    Adding Layer      : GND
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D61
-    D69
-    D70
-    D71
-    D74
-    D75
-    D76
-    D77
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : bici-pcb_Soldermask_Top.gbr
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-*************************************************************
-
-*************************************************************
-Generating : 3V3
-      File : bici-pcb_Copper_Signal_2.gbr
-
-    Adding Layer      : 3V3
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D61
-    D69
-    D70
-    D71
-    D74
-    D75
-    D76
-    D77
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : bici-pcb_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D11
 *************************************************************
 
 *************************************************************
@@ -197,6 +98,85 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : 3V3
+      File : bici-pcb_Copper_Signal_2.gbr
+
+    Adding Layer      : 3V3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D61
+    D69
+    D70
+    D71
+    D74
+    D75
+    D76
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : bici-pcb_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : bici-pcb_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
 Generating : Bottom Solder
       File : bici-pcb_Soldermask_Bot.gbr
 
@@ -216,6 +196,19 @@ Used DCodes :
     D63
     D64
     D65
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : bici-pcb_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
 *************************************************************
 
 *************************************************************
@@ -242,16 +235,23 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : bici-pcb_Legend_Top.gbr
+Generating : GND
+      File : bici-pcb_Copper_Signal_1.gbr
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
+    D61
+    D69
+    D70
+    D71
+    D74
+    D75
+    D76
+    D77
 *************************************************************
 
 *************************************************************

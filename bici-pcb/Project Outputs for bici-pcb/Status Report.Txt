@@ -1,22 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [bici-pcb.PrjPcb]
-   Generated File[bici-pcb_Legend_Top.gbr]
-   Generated File[bici-pcb_Paste_Top.gbr]
-   Generated File[bici-pcb_Soldermask_Top.gbr]
-   Generated File[bici-pcb_Copper_Signal_Top.gbr]
-   Generated File[bici-pcb_Copper_Signal_1.gbr]
-   Generated File[bici-pcb_Copper_Signal_2.gbr]
-   Generated File[bici-pcb_Copper_Signal_Bot.gbr]
-   Generated File[bici-pcb_Soldermask_Bot.gbr]
-   Generated File[bici-pcb_Paste_Bot.gbr]
-   Generated File[bici-pcb_Legend_Bot.gbr]
-   Generated File[bici-pcb_Profile.gbr]
-   Generated File[bici-pcb.EXTREP]
-   Generated File[bici-pcb.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [bici-pcb.PrjPcb]
+   Generated File[bici-pcb-RoundHoles.TXT]
+   Generated File[bici-pcb-SlotHoles.TXT]
+   Generated File[bici-pcb.LDP]
+   Generated File[bici-pcb.DRR]
 
 
-Files Generated   : 13
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 3:11:04 PM On 2/26/2026
+Finished Output Generation At 6:05:50 PM On 2/26/2026
